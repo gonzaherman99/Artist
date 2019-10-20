@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap');
+.navbar {
+    width: 100%;
+    height: 100%;
+}
+ul.navbar-nav.m-auto {
+    margin-right: 15% !important;
+}
+#logo {
+    padding: 2%;
+}
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+li.nav-item {
+    margin-left: 90px;
+    margin-right: 92.5px;
+}
+a.nav-link {
+    font-family: "Manjari";
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+a.nav-link:hover {
+    color: black;
+}
+img.imagen {
+    height: 262.33px;
+    width:  262.33px;
+    border-radius: 100%;
+    margin-left: 15%;
+    margin-top: 10%; 
+}
+h4.perfil-text  {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 19% !important;
+    margin-left: -25% !important;
+    margin-right: 11% !important;
+    font-family: "Manjari";
+    color: black;
+}
+#portafolio {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 13%;
+    font-family: "Manjari";
+}
+#portafolio h4 {
+    color: black;
+    font-weight: 700;
+}
+img.project {
+    margin-left: 5%;
+    width: 368px !important;
+    height: 368px;
+}
+div.carousel {
+    margin-left: 8%;
+    width: 100%;
+    display: block;
+}
+a.carousel-control-next {
+    margin-right: 5% !important;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+h4.inside-block {
+    z-index: 1;
+    color: black;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 55%;
+    position: absolute;
+    font-family: "Manjari";
+}
+h4.inside-block2 {
+    z-index: 1;
+    color: black;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 45%;
+    position: absolute;
+    font-family: "Manjari";
+}
+h6.inside-block {
+    z-index: 1;
+    color: black;
+    text-align: center;
+    margin-top: -17.5%;
+    margin-left: 55%;
+    position: absolute;
+    font-family: "Manjari";
+}
+h6.inside-block2 {
+    z-index: 1;
+    color: black;
+    text-align: center;
+    margin-top: -17.5%;
+    margin-left: 45%;
+    position: absolute;
+    font-family: "Manjari";
+}
+#galeria {
+     display: inline-block;
+    margin-top: 5%;
+    margin-left: 45%;
+    font-family: "Manjari";
+}
+#galeria h4 {
+    color: black;
+    font-weight: 700;
+}
+img.db1 {
+    margin-left: 11%;
+    margin-top: 2%;
+    height: 324px;
+    width: 324px;
+    display: block;
+}
+img.db2 {
+    position: absolute;
+    margin-top: -29.2%;
+    margin-left: 39%;
+}
+img.db3 {
+    width: 177px;
+    position: absolute;
+    margin-top: -9%;
+    margin-left: 39%;
+}
+img.db4 {
+     position: absolute;
+    margin-top: -29.2%;
+    margin-left: 54%;
+}
+img.db5 {
+    width: 178px;
+     position: absolute;
+    margin-top: -12%;
+    margin-left: 54%;
+}
+img.db6 {
+    width: 210px;
+    height: 324px;
+    position: absolute;
+    margin-top: -29.2%;
+    margin-left: 69%;
+}
+.contactos {
+    padding-bottom: 5%;
+}
+#contacto {
+     color: black;
+     display: inline-block;
+    margin-top: 5%;
+    margin-left: 77%;
+    font-family: "Manjari";
+}
+#contacto h4 {
+     color: black;
+    font-weight: 700;
+}
+div.instagram {
+    display: block;
+    margin-left: 44%;
+    margin-top: 2%;
+}
+div.facebook {
+    display: block;
+    margin-left: 44%;
+    margin-top: 2%;
+}
+div.phone {
+    display: block;
+    margin-left: 44%;
+    margin-top: 2%;
+}
+div.instagram h3{
+     display: inline;
+    margin: -2% 1% 1% 1%;
+    vertical-align: top;
+}
+div.facebook h3{
+     display: inline;
+    margin: -2% 1% 1% 1%;
+    vertical-align: top;
+}
+div.phone h3{
+     display: inline;
+    margin: -2% 1% 1% 1%;
+    vertical-align: top;
+}
