@@ -10,7 +10,7 @@ app.get("/", function(req, res) {
     res.render("index.ejs");
 });
 
-app.listen(8080, function(req, res) {
+app.listen(process.env.PORT || 8080, function(req, res) {
     console.log("Port started on 8080");
 });
 
