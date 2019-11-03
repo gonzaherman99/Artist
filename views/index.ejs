@@ -4,6 +4,15 @@
       <title>
     JOSE PREDO
     </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+         
+<link rel="stylesheet" href="css/animate.css">
+
+        
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
@@ -23,41 +32,47 @@
         </section>
  <nav class="navbar navbar-l navbar-expand-lg">
           
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist" aria-controls="navlist" aria-expanded="false" aria-label="Toggle navigation">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
-            </button>
+                <span class="navbar-toggler-icon"></span>
+           </button>
             
         
             
-            <div class="collapse navbar-collapse" id="navlist">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" id="nav" href="/productos">¿QUIEN SOY?</a>
+                        <a class="nav-link" id="nav" href="#perfil">¿QUIEN SOY?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/productos">PORTAFOLIO</a>
+                        <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about/about.html">GALERIA</a>
+                        <a class="nav-link" href="#galeria">GALERIA</a>
                     </li>
-                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">CONTACTO</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         <div class="container">
-            <div class="row">
-                 <div class="col-lg-6 col-sm-12">
+            <div class="animated bounceInLeft delay-4s row" id="perfil">
+                 <div class="col-lg-6 col-md-6 col-sm-12">
                      <img src="/images/perfil.jpg" class="imagen" width="1180.5px" height="1180.5">
                   </div>
-                  <div class="col-lg-6 col-sm-12">
-                        <h4 class="perfil-text">UN DISEÑADOR GRAFICO CON CONCEPTOS DIFERENTES Y FRESCOS, PARA TODO AQUEL QUE QUIERA DARLE UN CONCEPTO DIFERENTE A SU NEGOCIO, LOOK , ETC.  LOCALIZADO EN RETALHULEU, GUATEMALA.</h4>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2 class="perfil-text">J.P "Cuestionando a la realidad a traves del arte"</h2>
+                       
+                        <h3 class="perfil-text"> Dibujante de comics y diseñador grafico</h3>
                   </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
+        <div class="wow bounceInUp container">
+            <div class=" row">
                  <div id="portafolio">
-                    <i class="fas fa-folder fa-3x"></i> <h4>PORTAFOLIO</h4>
+                    <i class="fas fa-folder fa-3x"></i> <h2>PORTAFOLIO</h2>
                  </div>
             </div>
             <div class="row">
@@ -93,11 +108,11 @@
             <div class="row">
                 <div id="galeria">
                   <i class="fas fa-images fa-3x"></i>
-                  <h4>GALERIA</h4>
+                  <h2>GALERIA</h2>
                 </div>
             </div>            
     
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-12 galeria">
                 <img src="images/dibujo.jpg" class="db1">
                 <img src="images/dibujo1.jpg"  class="db2">
                 <img src="images/dibujo2.jpg"  class="db3">
@@ -111,7 +126,7 @@
             <div class="row">
                 <div id="contacto">
                     <i class="fas fa-user fa-3x"></i>
-                    <h4>CONTACTO</h4>
+                    <h2>CONTACTO</h2>
                 </div>
             </div>
             
@@ -130,6 +145,8 @@
                 </div>
             </div>
         </div>
+          <a class="creator">Site: iconect</a>
         <script src="index.js"></script>
+
     </body>
 </html>
